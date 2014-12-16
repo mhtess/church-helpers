@@ -1,0 +1,5 @@
+(load 'log_gamma.js)
+
+(log_gamma 0.25)
+
+(dirichletScore (list 1 1) (list 0.5 0.5) )
