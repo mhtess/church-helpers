@@ -3,6 +3,12 @@
 // call in church by (binomialScore (list p n) observation)
 // e.g. (binomialScore (list 0.5 15) 7)
 
+function fact(x){
+  var t=1;
+  while(x>1) t*=x--;
+  return t;
+}
+
 function lnfact(x) {
   if (x < 1) x = 1;
   if (x < 12) return Math.log(fact(Math.round(x)));
